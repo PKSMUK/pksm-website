@@ -3,112 +3,1378 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+
 <title>PK Sewing Machines | Leicester Sewing Machine Specialists Since 1982</title>
+
 <meta name="description" content="Family-run sewing machine specialists in Leicester since 1982. New and used domestic and industrial machines, repairs, servicing from £35, parts, needles, East Midlands industrial call-outs and nationwide service options.">
+
 <style>
-:root{--blue:#143c8c;--deep:#071a3d;--mid:#2457ad;--red:#d1262f;--paper:#f5f7fb;--ink:#162033;--muted:#687386;--line:#dce3ef;--white:#fff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff}
-a{text-decoration:none;color:inherit}.wrap{width:min(1180px,calc(100% - 36px));margin:auto}
-.top{background:var(--deep);color:#dce7ff;font-size:13px}.top .wrap{display:flex;justify-content:space-between;gap:20px;padding:9px 0}
-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
-.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:28px}.nav img{height:54px}.links{display:flex;align-items:center;gap:24px;font-size:14px;font-weight:700}.call{background:var(--blue);color:#fff;padding:13px 18px;border-radius:7px}
-.hero{position:relative;min-height:650px;display:flex;align-items:center;color:#fff;background:linear-gradient(90deg,rgba(4,18,46,.92) 0%,rgba(4,18,46,.72) 43%,rgba(4,18,46,.12) 72%),url('assets/shop-hero.png') center/cover no-repeat}
-.hero .copy{max-width:650px;padding:84px 0}.kicker{text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:800;color:#b9d0ff}
-h1{font-size:clamp(43px,6vw,72px);line-height:.98;margin:16px 0 20px;letter-spacing:-.045em}.hero p{font-size:19px;line-height:1.6;color:#e6ecf8;max-width:610px}
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{padding:15px 22px;border-radius:7px;font-weight:800;font-size:14px;display:inline-flex;align-items:center;justify-content:center}.primary{background:var(--red);color:#fff}.secondary{background:#fff;color:var(--deep)}
-.badges{position:absolute;left:0;right:0;bottom:0;background:rgba(6,22,53,.88);backdrop-filter:blur(7px)}.badgegrid{display:grid;grid-template-columns:repeat(4,1fr)}.badge{padding:20px 24px;border-right:1px solid rgba(255,255,255,.15)}.badge:last-child{border:0}.badge b{display:block;font-size:19px}.badge span{font-size:12px;color:#b9c7e3}
-section{padding:86px 0}.head{max-width:760px;margin-bottom:40px}.eyebrow{color:var(--blue);font-weight:900;letter-spacing:.13em;text-transform:uppercase;font-size:12px}.head h2{font-size:clamp(32px,4vw,48px);line-height:1.05;margin:12px 0 14px;letter-spacing:-.035em}.head p{font-size:17px;color:var(--muted);line-height:1.7}
-.brandbar{padding:25px 0;border-bottom:1px solid var(--line);background:#fff}.brandgrid{display:grid;grid-template-columns:repeat(8,1fr);gap:12px;align-items:center}.brand{height:72px;border:1px solid var(--line);border-radius:9px;display:flex;align-items:center;justify-content:center;background:#fff;font-weight:900;font-size:18px;letter-spacing:-.03em;filter:grayscale(.15)}.brand.featured{border:2px solid #b9c9e8}.brand small{display:block;font-size:9px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-top:3px}
-.split{display:grid;grid-template-columns:1fr 1fr;gap:22px}.route{min-height:390px;padding:42px;border-radius:16px;color:#fff;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end}.route:before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(4,18,46,.94),rgba(4,18,46,.25))}.route>*{position:relative}.route.home{background:linear-gradient(145deg,#2f63b5,#0d2d68)}.route.trade{background:linear-gradient(145deg,#17263d,#071326)}.route h3{font-size:35px;margin:8px 0 10px}.route p{color:#dce5f6;line-height:1.6}.route ul{padding-left:18px;line-height:1.8}
-.servicebg{background:var(--paper)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:28px;box-shadow:0 14px 35px rgba(13,36,78,.05)}.icon{width:44px;height:44px;border-radius:10px;background:#eaf0fc;color:var(--blue);display:grid;place-items:center;font-weight:900}.card h3{font-size:21px;margin:20px 0 10px}.card p{color:var(--muted);line-height:1.65;font-size:14px}.price{font-size:35px;font-weight:900;color:var(--blue);margin-top:16px}
-.showcase{background:var(--deep);color:#fff}.showcase .head h2{color:#fff}.showcase .head p{color:#b9c7df}.products{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.product{background:#fff;color:var(--ink);border-radius:12px;overflow:hidden}.machine{height:190px;background:linear-gradient(145deg,#eef3fa,#dce6f5);display:flex;align-items:center;justify-content:center;position:relative}.machine:before{content:"";width:120px;height:80px;border:9px solid #fff;border-radius:12px 25px 8px 8px;box-shadow:0 15px 30px rgba(6,28,70,.15);transform:skew(-3deg)}.machine:after{content:"";position:absolute;width:150px;height:13px;background:#fff;border-radius:5px;top:132px;box-shadow:0 8px 20px rgba(6,28,70,.12)}.product .info{padding:20px}.product h3{margin:0 0 8px}.product p{font-size:13px;color:var(--muted);line-height:1.5}.tag{font-size:10px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--red)}
-.photo-section{padding:0}.photo-grid{display:grid;grid-template-columns:1.2fr .8fr;min-height:570px}.photo{background:url('assets/shop-wide.png') center/cover no-repeat}.story{background:#f2f5fa;padding:70px}.story h2{font-size:44px;line-height:1.05;margin:12px 0 20px}.story p{color:var(--muted);line-height:1.8}.quote{border-left:4px solid var(--red);padding-left:20px;font-weight:800;color:var(--deep);font-size:18px;margin-top:28px}
-.stock{background:#fff}.stockbox{display:grid;grid-template-columns:1.3fr .7fr;background:var(--blue);color:#fff;border-radius:18px;overflow:hidden}.stockcopy{padding:48px}.stockcopy h2{font-size:40px;margin:0 0 12px}.stockcopy p{color:#dbe6fb;line-height:1.7}.ebay{background:#fff;color:var(--ink);margin:20px;padding:32px;border-radius:12px;display:flex;flex-direction:column;justify-content:center}.ebay b{font-size:28px}.ebay span{color:var(--muted);margin:8px 0 20px}
-.contact{background:#071a3d;color:#fff}.contactgrid{display:grid;grid-template-columns:1fr 1fr;gap:55px}.contact h2{font-size:42px}.details{display:grid;gap:12px;margin-top:28px}.detail{border-top:1px solid rgba(255,255,255,.15);padding:15px 0}.detail small{color:#9fb3da;text-transform:uppercase;letter-spacing:.1em}.detail b{display:block;margin-top:5px}.map iframe{width:100%;height:390px;border:0;border-radius:14px}
-footer{background:#040f24;color:#91a4ca;padding:28px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px}
-.mobilebar{display:none}
-@media(max-width:900px){.links{display:none}.hero{min-height:720px;background-position:55% center}.badgegrid,.brandgrid{grid-template-columns:repeat(2,1fr)}.split,.photo-grid,.stockbox,.contactgrid{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.products{grid-template-columns:1fr 1fr}.story{padding:45px 25px}.photo{min-height:420px}.mobilebar{display:grid;grid-template-columns:repeat(3,1fr);position:fixed;bottom:0;left:0;right:0;z-index:100;background:#fff;border-top:1px solid var(--line)}.mobilebar a{text-align:center;padding:14px 4px;font-size:12px;font-weight:900;color:var(--deep)}body{padding-bottom:45px}}
-@media(max-width:560px){.top .wrap{justify-content:center}.top .wrap span:first-child{display:none}.hero .copy{padding-top:55px}.cards,.products{grid-template-columns:1fr}.brandgrid{grid-template-columns:repeat(2,1fr)}h1{font-size:47px}.badge{padding:14px 10px}.badge b{font-size:15px}.wrap{width:min(100% - 24px,1180px)}}
+
+:root{
+--blue:#143c8c;
+--deep:#071a3d;
+--mid:#2457ad;
+--red:#d1262f;
+--paper:#f5f7fb;
+--ink:#162033;
+--muted:#687386;
+--line:#dce3ef;
+--white:#fff
+}
+
+*{
+box-sizing:border-box
+}
+
+html{
+scroll-behavior:smooth
+}
+
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+color:var(--ink);
+background:#fff
+}
+
+a{
+text-decoration:none;
+color:inherit
+}
+
+.wrap{
+width:min(1180px,calc(100% - 36px));
+margin:auto
+}
+
+/* TOP BAR */
+
+.top{
+background:var(--deep);
+color:#dce7ff;
+font-size:13px
+}
+
+.top .wrap{
+display:flex;
+justify-content:space-between;
+gap:20px;
+padding:9px 0
+}
+
+/* HEADER */
+
+header{
+position:sticky;
+top:0;
+z-index:50;
+background:rgba(255,255,255,.97);
+border-bottom:1px solid var(--line);
+backdrop-filter:blur(12px)
+}
+
+.nav{
+height:78px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:28px
+}
+
+.nav img{
+height:54px
+}
+
+.links{
+display:flex;
+align-items:center;
+gap:24px;
+font-size:14px;
+font-weight:700
+}
+
+.call{
+background:var(--blue);
+color:#fff;
+padding:13px 18px;
+border-radius:7px
+}
+
+/* HERO */
+
+.hero{
+position:relative;
+min-height:650px;
+display:flex;
+align-items:center;
+color:#fff;
+background:
+linear-gradient(
+90deg,
+rgba(4,18,46,.92) 0%,
+rgba(4,18,46,.72) 43%,
+rgba(4,18,46,.12) 72%
+),
+url('assets/shop-hero.png') center/cover no-repeat
+}
+
+.hero .copy{
+max-width:650px;
+padding:84px 0
+}
+
+.kicker{
+text-transform:uppercase;
+letter-spacing:.16em;
+font-size:12px;
+font-weight:800;
+color:#b9d0ff
+}
+
+h1{
+font-size:clamp(43px,6vw,72px);
+line-height:.98;
+margin:16px 0 20px;
+letter-spacing:-.045em
+}
+
+.hero p{
+font-size:19px;
+line-height:1.6;
+color:#e6ecf8;
+max-width:610px
+}
+
+.actions{
+display:flex;
+gap:12px;
+flex-wrap:wrap;
+margin-top:30px
+}
+
+.btn{
+padding:15px 22px;
+border-radius:7px;
+font-weight:800;
+font-size:14px;
+display:inline-flex;
+align-items:center;
+justify-content:center
+}
+
+.primary{
+background:var(--red);
+color:#fff
+}
+
+.secondary{
+background:#fff;
+color:var(--deep)
+}
+
+/* HERO BADGES */
+
+.badges{
+position:absolute;
+left:0;
+right:0;
+bottom:0;
+background:rgba(6,22,53,.88);
+backdrop-filter:blur(7px)
+}
+
+.badgegrid{
+display:grid;
+grid-template-columns:repeat(4,1fr)
+}
+
+.badge{
+padding:20px 24px;
+border-right:1px solid rgba(255,255,255,.15)
+}
+
+.badge:last-child{
+border:0
+}
+
+.badge b{
+display:block;
+font-size:19px
+}
+
+.badge span{
+font-size:12px;
+color:#b9c7e3
+}
+
+/* GENERAL SECTIONS */
+
+section{
+padding:86px 0
+}
+
+.head{
+max-width:760px;
+margin-bottom:40px
+}
+
+.eyebrow{
+color:var(--blue);
+font-weight:900;
+letter-spacing:.13em;
+text-transform:uppercase;
+font-size:12px
+}
+
+.head h2{
+font-size:clamp(32px,4vw,48px);
+line-height:1.05;
+margin:12px 0 14px;
+letter-spacing:-.035em
+}
+
+.head p{
+font-size:17px;
+color:var(--muted);
+line-height:1.7
+}
+
+/* BRANDS */
+
+.brandbar{
+padding:25px 0;
+border-bottom:1px solid var(--line);
+background:#fff
+}
+
+.brandgrid{
+display:grid;
+grid-template-columns:repeat(8,1fr);
+gap:12px;
+align-items:center
+}
+
+.brand{
+height:72px;
+border:1px solid var(--line);
+border-radius:9px;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#fff;
+font-weight:900;
+font-size:18px;
+letter-spacing:-.03em;
+filter:grayscale(.15)
+}
+
+.brand.featured{
+border:2px solid #b9c9e8
+}
+
+.brand small{
+display:block;
+font-size:9px;
+color:var(--muted);
+letter-spacing:.08em;
+text-transform:uppercase;
+margin-top:3px
+}
+
+/* DOMESTIC / INDUSTRIAL */
+
+.split{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:22px
+}
+
+.route{
+min-height:390px;
+padding:42px;
+border-radius:16px;
+color:#fff;
+position:relative;
+overflow:hidden;
+display:flex;
+flex-direction:column;
+justify-content:flex-end
+}
+
+.route:before{
+content:"";
+position:absolute;
+inset:0;
+background:linear-gradient(
+0deg,
+rgba(4,18,46,.94),
+rgba(4,18,46,.25)
+)
+}
+
+.route>*{
+position:relative
+}
+
+.route.home{
+background:linear-gradient(145deg,#2f63b5,#0d2d68)
+}
+
+.route.trade{
+background:linear-gradient(145deg,#17263d,#071326)
+}
+
+.route h3{
+font-size:35px;
+margin:8px 0 10px
+}
+
+.route p{
+color:#dce5f6;
+line-height:1.6
+}
+
+.route ul{
+padding-left:18px;
+line-height:1.8
+}
+
+/* SERVICES */
+
+.servicebg{
+background:var(--paper)
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px
+}
+
+.card{
+background:#fff;
+border:1px solid var(--line);
+border-radius:14px;
+padding:28px;
+box-shadow:0 14px 35px rgba(13,36,78,.05)
+}
+
+.icon{
+width:44px;
+height:44px;
+border-radius:10px;
+background:#eaf0fc;
+color:var(--blue);
+display:grid;
+place-items:center;
+font-weight:900
+}
+
+.card h3{
+font-size:21px;
+margin:20px 0 10px
+}
+
+.card p{
+color:var(--muted);
+line-height:1.65;
+font-size:14px
+}
+
+.price{
+font-size:35px;
+font-weight:900;
+color:var(--blue);
+margin-top:16px
+}
+
+/* MACHINES */
+
+.showcase{
+background:var(--deep);
+color:#fff
+}
+
+.showcase .head h2{
+color:#fff
+}
+
+.showcase .head p{
+color:#b9c7df
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:16px
+}
+
+.product{
+background:#fff;
+color:var(--ink);
+border-radius:12px;
+overflow:hidden
+}
+
+.machine{
+height:190px;
+background:linear-gradient(145deg,#eef3fa,#dce6f5);
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative
+}
+
+.machine:before{
+content:"";
+width:120px;
+height:80px;
+border:9px solid #fff;
+border-radius:12px 25px 8px 8px;
+box-shadow:0 15px 30px rgba(6,28,70,.15);
+transform:skew(-3deg)
+}
+
+.machine:after{
+content:"";
+position:absolute;
+width:150px;
+height:13px;
+background:#fff;
+border-radius:5px;
+top:132px;
+box-shadow:0 8px 20px rgba(6,28,70,.12)
+}
+
+.product .info{
+padding:20px
+}
+
+.product h3{
+margin:0 0 8px
+}
+
+.product p{
+font-size:13px;
+color:var(--muted);
+line-height:1.5
+}
+
+.tag{
+font-size:10px;
+font-weight:900;
+letter-spacing:.1em;
+text-transform:uppercase;
+color:var(--red)
+}
+
+/* FAMILY STORY */
+
+.photo-section{
+padding:0
+}
+
+.photo-grid{
+display:grid;
+grid-template-columns:1.2fr .8fr;
+min-height:570px
+}
+
+/*
+NEW APPROVED IMAGE
+*/
+.photo{
+background:url('assets/shop-van.png') center/cover no-repeat
+}
+
+.story{
+background:#f2f5fa;
+padding:70px
+}
+
+.story h2{
+font-size:44px;
+line-height:1.05;
+margin:12px 0 20px
+}
+
+.story p{
+color:var(--muted);
+line-height:1.8
+}
+
+.quote{
+border-left:4px solid var(--red);
+padding-left:20px;
+font-weight:800;
+color:var(--deep);
+font-size:18px;
+margin-top:28px
+}
+
+/* STOCK / EBAY */
+
+.stock{
+background:#fff
+}
+
+.stockbox{
+display:grid;
+grid-template-columns:1.3fr .7fr;
+background:var(--blue);
+color:#fff;
+border-radius:18px;
+overflow:hidden
+}
+
+.stockcopy{
+padding:48px
+}
+
+.stockcopy h2{
+font-size:40px;
+margin:0 0 12px
+}
+
+.stockcopy p{
+color:#dbe6fb;
+line-height:1.7
+}
+
+.ebay{
+background:#fff;
+color:var(--ink);
+margin:20px;
+padding:32px;
+border-radius:12px;
+display:flex;
+flex-direction:column;
+justify-content:center
+}
+
+.ebay b{
+font-size:28px
+}
+
+.ebay span{
+color:var(--muted);
+margin:8px 0 20px
+}
+
+/* CONTACT */
+
+.contact{
+background:#071a3d;
+color:#fff
+}
+
+.contactgrid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:55px
+}
+
+.contact h2{
+font-size:42px
+}
+
+.details{
+display:grid;
+gap:12px;
+margin-top:28px
+}
+
+.detail{
+border-top:1px solid rgba(255,255,255,.15);
+padding:15px 0
+}
+
+.detail small{
+color:#9fb3da;
+text-transform:uppercase;
+letter-spacing:.1em
+}
+
+.detail b{
+display:block;
+margin-top:5px
+}
+
+.map iframe{
+width:100%;
+height:390px;
+border:0;
+border-radius:14px
+}
+
+/* FOOTER */
+
+footer{
+background:#040f24;
+color:#91a4ca;
+padding:28px 0;
+font-size:13px
+}
+
+.foot{
+display:flex;
+justify-content:space-between;
+gap:20px
+}
+
+.mobilebar{
+display:none
+}
+
+/* TABLET */
+
+@media(max-width:900px){
+
+.links{
+display:none
+}
+
+.hero{
+min-height:720px;
+background-position:55% center
+}
+
+.badgegrid,
+.brandgrid{
+grid-template-columns:repeat(2,1fr)
+}
+
+.split,
+.photo-grid,
+.stockbox,
+.contactgrid{
+grid-template-columns:1fr
+}
+
+.cards{
+grid-template-columns:1fr 1fr
+}
+
+.products{
+grid-template-columns:1fr 1fr
+}
+
+.story{
+padding:45px 25px
+}
+
+.photo{
+min-height:420px
+}
+
+.mobilebar{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+z-index:100;
+background:#fff;
+border-top:1px solid var(--line)
+}
+
+.mobilebar a{
+text-align:center;
+padding:14px 4px;
+font-size:12px;
+font-weight:900;
+color:var(--deep)
+}
+
+body{
+padding-bottom:45px
+}
+
+}
+
+/* MOBILE */
+
+@media(max-width:560px){
+
+.top .wrap{
+justify-content:center
+}
+
+.top .wrap span:first-child{
+display:none
+}
+
+.hero .copy{
+padding-top:55px
+}
+
+.cards,
+.products{
+grid-template-columns:1fr
+}
+
+.brandgrid{
+grid-template-columns:repeat(2,1fr)
+}
+
+h1{
+font-size:47px
+}
+
+.badge{
+padding:14px 10px
+}
+
+.badge b{
+font-size:15px
+}
+
+.wrap{
+width:min(100% - 24px,1180px)
+}
+
+}
+
 </style>
 </head>
+
 <body>
-<div class="top"><div class="wrap"><span>Family-run in Leicester since 1982</span><span>0116 273 6552 &nbsp; • &nbsp; Mon–Sat 9:00–17:00</span></div></div>
-<header><div class="wrap nav"><a href="#"><img src="assets/pk-logo.png" alt="PK Sewing Machines"></a><nav class="links"><a href="#services">Services</a><a href="#machines">Machines</a><a href="#industrial">Industrial</a><a href="#story">Our Story</a><a href="#contact">Visit Us</a><a class="call" href="tel:01162736552">CALL 0116 273 6552</a></nav></div></header>
+
+<div class="top">
+<div class="wrap">
+<span>Family-run in Leicester since 1982</span>
+<span>0116 273 6552 &nbsp; • &nbsp; Mon–Sat 9:00–17:00</span>
+</div>
+</div>
+
+<header>
+<div class="wrap nav">
+
+<a href="#">
+<img src="assets/pk-logo.png" alt="PK Sewing Machines">
+</a>
+
+<nav class="links">
+<a href="#services">Services</a>
+<a href="#machines">Machines</a>
+<a href="#industrial">Industrial</a>
+<a href="#story">Our Story</a>
+<a href="#contact">Visit Us</a>
+<a class="call" href="tel:01162736552">
+CALL 0116 273 6552
+</a>
+</nav>
+
+</div>
+</header>
 
 <main>
+
+<!-- HERO -->
+
 <section class="hero">
-<div class="wrap"><div class="copy">
-<div class="kicker">Leicester • Established 1982</div>
-<h1>Sewing machine specialists for over 40 years.</h1>
-<p>Family-run sales, servicing, repairs and parts for domestic and industrial sewing machines. Friendly advice, fair pricing and decades of hands-on experience.</p>
-<div class="actions"><a class="btn primary" href="tel:01162736552">Book a service</a><a class="btn secondary" href="#machines">Browse machines</a></div>
-</div></div>
-<div class="badges"><div class="wrap badgegrid">
-<div class="badge"><b>Since 1982</b><span>Family-run in Leicester</span></div>
-<div class="badge"><b>From £35</b><span>Machine servicing</span></div>
-<div class="badge"><b>East Midlands</b><span>Industrial call-outs</span></div>
-<div class="badge"><b>UK-Wide</b><span>Sales & repair options</span></div>
-</div></div>
+
+<div class="wrap">
+<div class="copy">
+
+<div class="kicker">
+Leicester • Established 1982
+</div>
+
+<h1>
+Sewing machine specialists for over 40 years.
+</h1>
+
+<p>
+Family-run sales, servicing, repairs and parts for domestic and industrial sewing machines. Friendly advice, fair pricing and decades of hands-on experience.
+</p>
+
+<div class="actions">
+
+<a class="btn primary" href="tel:01162736552">
+Book a service
+</a>
+
+<a class="btn secondary" href="#machines">
+Browse machines
+</a>
+
+</div>
+
+</div>
+</div>
+
+<div class="badges">
+
+<div class="wrap badgegrid">
+
+<div class="badge">
+<b>Since 1982</b>
+<span>Family-run in Leicester</span>
+</div>
+
+<div class="badge">
+<b>From £35</b>
+<span>Machine servicing</span>
+</div>
+
+<div class="badge">
+<b>East Midlands</b>
+<span>Industrial call-outs</span>
+</div>
+
+<div class="badge">
+<b>UK-Wide</b>
+<span>Sales & repair options</span>
+</div>
+
+</div>
+</div>
+
 </section>
 
-<div class="brandbar"><div class="wrap">
+<!-- BRANDS -->
+
+<div class="brandbar">
+
+<div class="wrap">
+
 <div class="brandgrid">
-<div class="brand featured"><div>BROTHER<small>Key brand</small></div></div>
-<div class="brand featured"><div>JACK<small>Key brand</small></div></div>
-<div class="brand featured"><div>YAMATO<small>Key brand</small></div></div>
-<div class="brand">JUKI</div><div class="brand">JANOME</div><div class="brand">SINGER</div><div class="brand">BERNINA</div><div class="brand">PFAFF</div>
-</div></div></div>
 
-<section><div class="wrap">
-<div class="head"><div class="eyebrow">One workshop. Two worlds.</div><h2>From first stitches to full production lines.</h2><p>Whether you sew at home or run a commercial workroom, PK Sewing Machines can help you choose, maintain and repair the equipment you rely on.</p></div>
+<div class="brand featured">
+<div>
+BROTHER
+<small>Key brand</small>
+</div>
+</div>
+
+<div class="brand featured">
+<div>
+JACK
+<small>Key brand</small>
+</div>
+</div>
+
+<div class="brand featured">
+<div>
+YAMATO
+<small>Key brand</small>
+</div>
+</div>
+
+<div class="brand">JUKI</div>
+<div class="brand">JANOME</div>
+<div class="brand">SINGER</div>
+<div class="brand">BERNINA</div>
+<div class="brand">PFAFF</div>
+
+</div>
+</div>
+</div>
+
+<!-- DOMESTIC / INDUSTRIAL -->
+
+<section>
+
+<div class="wrap">
+
+<div class="head">
+
+<div class="eyebrow">
+One workshop. Two worlds.
+</div>
+
+<h2>
+From first stitches to full production lines.
+</h2>
+
+<p>
+Whether you sew at home or run a commercial workroom, PK Sewing Machines can help you choose, maintain and repair the equipment you rely on.
+</p>
+
+</div>
+
 <div class="split">
-<div class="route home"><div class="eyebrow" style="color:#bcd0ff">Home & Hobby</div><h3>Domestic sewing</h3><p>Machines, overlockers, embroidery equipment, accessories, repairs and servicing.</p><ul><li>New & used machines</li><li>Servicing from £35</li><li>All major makes</li><li>Buy & part exchange</li></ul></div>
-<div class="route trade" id="industrial"><div class="eyebrow" style="color:#bcd0ff">Trade & Industrial</div><h3>Commercial sewing</h3><p>Industrial machinery, workshop equipment, parts and engineering support across the East Midlands.</p><ul><li>Industrial call-outs</li><li>Lockstitch, overlock & specialist machines</li><li>Cutting & pressing equipment</li><li>Trade parts & consumables</li></ul></div>
-</div></div></section>
 
-<section class="servicebg" id="services"><div class="wrap">
-<div class="head"><div class="eyebrow">Sales • Service • Repairs • Parts</div><h2>Everything your machine needs, under one roof.</h2></div>
+<div class="route home">
+
+<div class="eyebrow" style="color:#bcd0ff">
+Home & Hobby
+</div>
+
+<h3>
+Domestic sewing
+</h3>
+
+<p>
+Machines, overlockers, embroidery equipment, accessories, repairs and servicing.
+</p>
+
+<ul>
+<li>New & used machines</li>
+<li>Servicing from £35</li>
+<li>All major makes</li>
+<li>Buy & part exchange</li>
+</ul>
+
+</div>
+
+<div class="route trade" id="industrial">
+
+<div class="eyebrow" style="color:#bcd0ff">
+Trade & Industrial
+</div>
+
+<h3>
+Commercial sewing
+</h3>
+
+<p>
+Industrial machinery, workshop equipment, parts and engineering support across the East Midlands.
+</p>
+
+<ul>
+<li>Industrial call-outs</li>
+<li>Lockstitch, overlock & specialist machines</li>
+<li>Cutting & pressing equipment</li>
+<li>Trade parts & consumables</li>
+</ul>
+
+</div>
+
+</div>
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="servicebg" id="services">
+
+<div class="wrap">
+
+<div class="head">
+
+<div class="eyebrow">
+Sales • Service • Repairs • Parts
+</div>
+
+<h2>
+Everything your machine needs, under one roof.
+</h2>
+
+</div>
+
 <div class="cards">
-<div class="card"><div class="icon">01</div><h3>Servicing & repairs</h3><p>Workshop servicing and repairs across domestic and industrial machines. We test, diagnose and explain the work clearly.</p><div class="price">From £35</div></div>
-<div class="card"><div class="icon">02</div><h3>New & used sales</h3><p>Domestic, industrial, overlock, embroidery and specialist machines. Used machines are tested by us before sale and sold as seen.</p></div>
-<div class="card"><div class="icon">03</div><h3>Industrial call-outs</h3><p>On-site support across the East Midlands for commercial customers, workrooms and production environments.</p></div>
-<div class="card"><div class="icon">04</div><h3>Collection & delivery</h3><p>Collection and delivery can be arranged. Fees depend on machine, location and distance — contact us for a quote.</p></div>
-<div class="card"><div class="icon">05</div><h3>Parts & accessories</h3><p>Needles, feet, bobbins, belts, motors, tables, thread, scissors and a wide range of everyday and harder-to-find parts.</p></div>
-<div class="card"><div class="icon">06</div><h3>We buy & part exchange</h3><p>Upgrading or clearing equipment? We buy selected machines outright and offer part exchange against replacement machines.</p></div>
-</div></div></section>
 
-<section class="showcase" id="machines"><div class="wrap">
-<div class="head"><div class="eyebrow" style="color:#90b5ff">Equipment</div><h2>Machines for home, trade and industry.</h2><p>Our stock changes regularly. Call us or view our eBay listings for current machines and equipment.</p></div>
+<div class="card">
+
+<div class="icon">01</div>
+
+<h3>
+Servicing & repairs
+</h3>
+
+<p>
+Workshop servicing and repairs across domestic and industrial machines. We test, diagnose and explain the work clearly.
+</p>
+
+<div class="price">
+From £35
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="icon">02</div>
+
+<h3>
+New & used sales
+</h3>
+
+<p>
+Domestic, industrial, overlock, embroidery and specialist machines. Used machines are tested by us before sale and sold as seen.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="icon">03</div>
+
+<h3>
+Industrial call-outs
+</h3>
+
+<p>
+On-site support across the East Midlands for commercial customers, workrooms and production environments.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="icon">04</div>
+
+<h3>
+Collection & delivery
+</h3>
+
+<p>
+Collection and delivery can be arranged. Fees depend on machine, location and distance — contact us for a quote.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="icon">05</div>
+
+<h3>
+Parts & accessories
+</h3>
+
+<p>
+Needles, feet, bobbins, belts, motors, tables, thread, scissors and a wide range of everyday and harder-to-find parts.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="icon">06</div>
+
+<h3>
+We buy & part exchange
+</h3>
+
+<p>
+Upgrading or clearing equipment? We buy selected machines outright and offer part exchange against replacement machines.
+</p>
+
+</div>
+
+</div>
+</div>
+
+</section>
+
+<!-- MACHINES -->
+
+<section class="showcase" id="machines">
+
+<div class="wrap">
+
+<div class="head">
+
+<div class="eyebrow" style="color:#90b5ff">
+Equipment
+</div>
+
+<h2>
+Machines for home, trade and industry.
+</h2>
+
+<p>
+Our stock changes regularly. Call us or view our eBay listings for current machines and equipment.
+</p>
+
+</div>
+
 <div class="products">
-<div class="product"><div class="machine"></div><div class="info"><span class="tag">Industrial</span><h3>Lockstitch Machines</h3><p>Production-ready single-needle and specialist lockstitch equipment.</p></div></div>
-<div class="product"><div class="machine"></div><div class="info"><span class="tag">Industrial</span><h3>Overlock & Coverstitch</h3><p>Commercial overlock, safety stitch, interlock and coverstitch equipment.</p></div></div>
-<div class="product"><div class="machine"></div><div class="info"><span class="tag">Domestic</span><h3>Home & Embroidery</h3><p>Domestic sewing, embroidery and overlocker machines for every level.</p></div></div>
-<div class="product"><div class="machine"></div><div class="info"><span class="tag">Workshop</span><h3>Pressing & Cutting</h3><p>Irons, heat presses, cutting machines, tables, motors and workshop equipment.</p></div></div>
-</div></div></section>
 
-<section class="photo-section" id="story"><div class="photo-grid"><div class="photo"></div><div class="story">
-<div class="eyebrow">Our family story</div><h2>Leicester roots. Industry connections. Family values.</h2>
-<p>PK Sewing Machines was started in 1982 by two brothers and remains maintained by the family today. Over more than four decades, the business has built a respected reputation across the UK and long-standing contacts throughout the sewing-machine sector.</p>
-<p>We work with domestic customers, tailors, alteration businesses, schools, workrooms and commercial manufacturers — combining traditional customer service with deep practical knowledge of modern and older machinery.</p>
-<div class="quote">Family-run. Friendly. Fairly priced. And still testing machines on our own bench before they leave the shop.</div>
-</div></div></section>
+<div class="product">
 
-<section class="stock"><div class="wrap"><div class="stockbox">
-<div class="stockcopy"><div class="eyebrow" style="color:#c9d8f6">Current stock</div><h2>Looking for a machine?</h2><p>We carry new and used equipment, but stock moves quickly. Call the shop for today's availability or browse our current eBay listings.</p><div class="actions"><a class="btn secondary" href="tel:01162736552">Call about stock</a></div></div>
-<div class="ebay"><small>OUR EBAY STORE</small><b>Shop our latest stock</b><span>View our latest machines, parts and equipment online.</span><a class="btn primary" href="https://www.ebay.co.uk/sch/i.html?_ssn=rajsud57" target="_blank" rel="noopener">View our eBay store</a></div>
-</div></div></section>
+<div class="machine"></div>
 
-<section class="contact" id="contact"><div class="wrap contactgrid"><div>
-<div class="eyebrow" style="color:#9ab9f5">Visit PK Sewing Machines</div><h2>Come and see us in Leicester.</h2>
+<div class="info">
+
+<span class="tag">
+Industrial
+</span>
+
+<h3>
+Lockstitch Machines
+</h3>
+
+<p>
+Production-ready single-needle and specialist lockstitch equipment.
+</p>
+
+</div>
+</div>
+
+<div class="product">
+
+<div class="machine"></div>
+
+<div class="info">
+
+<span class="tag">
+Industrial
+</span>
+
+<h3>
+Overlock & Coverstitch
+</h3>
+
+<p>
+Commercial overlock, safety stitch, interlock and coverstitch equipment.
+</p>
+
+</div>
+</div>
+
+<div class="product">
+
+<div class="machine"></div>
+
+<div class="info">
+
+<span class="tag">
+Domestic
+</span>
+
+<h3>
+Home & Embroidery
+</h3>
+
+<p>
+Domestic sewing, embroidery and overlocker machines for every level.
+</p>
+
+</div>
+</div>
+
+<div class="product">
+
+<div class="machine"></div>
+
+<div class="info">
+
+<span class="tag">
+Workshop
+</span>
+
+<h3>
+Pressing & Cutting
+</h3>
+
+<p>
+Irons, heat presses, cutting machines, tables, motors and workshop equipment.
+</p>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FAMILY STORY -->
+
+<section class="photo-section" id="story">
+
+<div class="photo-grid">
+
+<div class="photo"></div>
+
+<div class="story">
+
+<div class="eyebrow">
+Our family story
+</div>
+
+<h2>
+Leicester roots. Industry connections. Family values.
+</h2>
+
+<p>
+PK Sewing Machines was started in 1982 by two brothers and remains maintained by the family today. Over more than four decades, the business has built a respected reputation across the UK and long-standing contacts throughout the sewing-machine sector.
+</p>
+
+<p>
+We work with domestic customers, tailors, alteration businesses, schools, workrooms and commercial manufacturers — combining traditional customer service with deep practical knowledge of modern and older machinery.
+</p>
+
+<div class="quote">
+Family-run. Friendly. Fairly priced. And still testing machines on our own bench before they leave the shop.
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- EBAY -->
+
+<section class="stock">
+
+<div class="wrap">
+
+<div class="stockbox">
+
+<div class="stockcopy">
+
+<div class="eyebrow" style="color:#c9d8f6">
+Current stock
+</div>
+
+<h2>
+Looking for a machine?
+</h2>
+
+<p>
+We carry new and used equipment, but stock moves quickly. Call the shop for today's availability or browse our current eBay listings.
+</p>
+
+<div class="actions">
+
+<a class="btn secondary" href="tel:01162736552">
+Call about stock
+</a>
+
+</div>
+
+</div>
+
+<div class="ebay">
+
+<small>
+OUR EBAY STORE
+</small>
+
+<b>
+Shop our latest stock
+</b>
+
+<span>
+View our latest machines, parts and equipment online.
+</span>
+
+<a
+class="btn primary"
+href="https://www.ebay.co.uk/sch/i.html?_ssn=rajsud57"
+target="_blank"
+rel="noopener"
+>
+View our eBay store
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+<div class="wrap contactgrid">
+
+<div>
+
+<div class="eyebrow" style="color:#9ab9f5">
+Visit PK Sewing Machines
+</div>
+
+<h2>
+Come and see us in Leicester.
+</h2>
+
 <div class="details">
-<div class="detail"><small>Address</small><b>415 St Saviours Road, Leicester, LE5 4HH</b></div>
-<div class="detail"><small>Telephone</small><b><a href="tel:01162736552">0116 273 6552</a></b></div>
-<div class="detail"><small>Email</small><b><a href="mailto:info@pksm.co.uk">info@pksm.co.uk</a></b></div>
-<div class="detail"><small>Opening</small><b>Monday–Saturday 9:00–17:00 • Sunday closed</b></div>
-</div></div>
-<div class="map"><iframe loading="lazy" title="PK Sewing Machines map" src="https://www.google.com/maps?q=415+St+Saviours+Road,+Leicester,+LE5+4HH&output=embed"></iframe></div>
-</div></section>
+
+<div class="detail">
+<small>Address</small>
+<b>415 St Saviours Road, Leicester, LE5 4HH</b>
+</div>
+
+<div class="detail">
+<small>Telephone</small>
+<b>
+<a href="tel:01162736552">
+0116 273 6552
+</a>
+</b>
+</div>
+
+<div class="detail">
+<small>Email</small>
+<b>
+<a href="mailto:info@pksm.co.uk">
+info@pksm.co.uk
+</a>
+</b>
+</div>
+
+<div class="detail">
+<small>Opening</small>
+<b>
+Monday–Saturday 9:00–17:00 • Sunday closed
+</b>
+</div>
+
+</div>
+
+</div>
+
+<div class="map">
+
+<iframe
+loading="lazy"
+title="PK Sewing Machines map"
+src="https://www.google.com/maps?q=415+St+Saviours+Road,+Leicester,+LE5+4HH&output=embed">
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
 </main>
-<footer><div class="wrap foot"><span>© 2026 PK Sewing Machines. Established 1982.</span><span>Sales • Repairs • Servicing • Parts • Leicester & East Midlands</span></div></footer>
-<div class="mobilebar"><a href="tel:01162736552">CALL</a><a href="mailto:info@pksm.co.uk">EMAIL</a><a href="https://www.google.com/maps/search/?api=1&query=415+St+Saviours+Road+Leicester+LE5+4HH">DIRECTIONS</a></div>
-</body></html>
+
+<footer>
+
+<div class="wrap foot">
+
+<span>
+© 2026 PK Sewing Machines. Established 1982.
+</span>
+
+<span>
+Sales • Repairs • Servicing • Parts • Leicester & East Midlands
+</span>
+
+</div>
+
+</footer>
+
+<!-- MOBILE QUICK ACTIONS -->
+
+<div class="mobilebar">
+
+<a href="tel:01162736552">
+CALL
+</a>
+
+<a href="mailto:info@pksm.co.uk">
+EMAIL
+</a>
+
+<a href="https://www.google.com/maps/search/?api=1&query=415+St+Saviours+Road+Leicester+LE5+4HH">
+DIRECTIONS
+</a>
+
+</div>
+
+</body>
+</html>
