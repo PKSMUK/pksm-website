@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<defs><linearGradient id="g2" x1="0" x2="1"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#e8eef7"/></linearGradient></defs>
+<rect width="900" height="600" fill="url(#g2)"/>
+<ellipse cx="455" cy="520" rx="310" ry="32" fill="#cbd5e4" opacity=".55"/>
+<rect x="420" y="230" width="245" height="280" rx="12" fill="#f7f9fb" stroke="#b9c5d5" stroke-width="7"/>
+<rect x="455" y="285" width="150" height="80" rx="8" fill="#143c8c"/>
+<circle cx="492" cy="325" r="13" fill="#e8edf5"/><circle cx="535" cy="325" r="13" fill="#d1262f"/>
+<rect x="135" y="290" width="445" height="62" rx="31" fill="#2c68b7"/>
+<path d="M150 288h410q25 0 30 22H120q8-22 30-22z" fill="#3d7ccc"/>
+<rect x="210" y="195" width="330" height="42" rx="20" fill="#2c68b7"/>
+<rect x="230" y="183" width="290" height="18" rx="9" fill="#4a86d0"/>
+<path d="M605 225V105H745" fill="none" stroke="#56677e" stroke-width="12" stroke-linecap="round"/>
+<path d="M744 105v225" fill="none" stroke="#56677e" stroke-width="8"/>
+<path d="M744 325q-65-5-110 15" fill="none" stroke="#222b38" stroke-width="12" stroke-linecap="round"/>
+<path d="M635 340l-42 55h95l-28-55z" fill="#dfe5ed" stroke="#8d9caf" stroke-width="5"/>
+<rect x="180" y="370" width="220" height="38" rx="19" fill="#2c68b7"/>
+<path d="M190 410v80m195-80v80" stroke="#7f8da0" stroke-width="12"/>
+<text x="456" y="445" font-family="Arial,sans-serif" font-weight="900" font-size="34" fill="#143c8c">PRO PRESS</text>
+<text x="455" y="480" font-family="Arial,sans-serif" font-weight="700" font-size="18" fill="#65758b">INDUSTRIAL STEAM &amp; PRESSING</text>
+</svg>

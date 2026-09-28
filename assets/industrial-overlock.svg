@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#f7f9fc"/><stop offset="1" stop-color="#e8eef7"/></linearGradient></defs>
+<rect width="900" height="600" fill="url(#g)"/>
+<ellipse cx="470" cy="510" rx="310" ry="35" fill="#cbd5e4" opacity=".55"/>
+<rect x="150" y="420" width="600" height="48" rx="12" fill="#c7d0dc"/>
+<rect x="190" y="455" width="520" height="30" rx="8" fill="#243a5e"/>
+<path d="M270 170h360q55 0 55 55v190H260V215q0-45 10-45z" fill="#fff" stroke="#bcc8d8" stroke-width="7"/>
+<path d="M260 315H145q-32 0-32 32v68h205v-100z" fill="#f9fbfd" stroke="#bcc8d8" stroke-width="7"/>
+<rect x="340" y="132" width="40" height="52" rx="8" fill="#d9e1ec"/>
+<rect x="410" y="118" width="40" height="66" rx="8" fill="#d9e1ec"/>
+<rect x="480" y="126" width="40" height="58" rx="8" fill="#d9e1ec"/>
+<rect x="550" y="116" width="40" height="68" rx="8" fill="#d9e1ec"/>
+<g fill="#d6dde8" stroke="#9ba9ba" stroke-width="5">
+<circle cx="375" cy="245" r="31"/><circle cx="455" cy="245" r="31"/><circle cx="535" cy="245" r="31"/><circle cx="615" cy="245" r="31"/>
+</g>
+<g fill="#fff" stroke="#9ba9ba" stroke-width="4">
+<circle cx="375" cy="245" r="17"/><circle cx="455" cy="245" r="17"/><circle cx="535" cy="245" r="17"/><circle cx="615" cy="245" r="17"/>
+</g>
+<path d="M330 330h105v70H330z" fill="#e9eef5" stroke="#aeb9c8" stroke-width="5"/>
+<path d="M355 398v55m35-55v55" stroke="#6e7d91" stroke-width="6"/>
+<path d="M310 355h-80v48h80" fill="#dfe6ef" stroke="#aeb9c8" stroke-width="5"/>
+<text x="565" y="350" font-family="Arial,sans-serif" font-weight="900" font-size="62" fill="#164c9c">JUKI</text>
+<text x="300" y="205" font-family="Arial,sans-serif" font-weight="700" font-size="24" fill="#607089">INDUSTRIAL OVERLOCK</text>
+</svg>
